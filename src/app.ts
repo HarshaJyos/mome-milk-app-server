@@ -12,7 +12,7 @@ import { errorHandler } from "./errorMiddleware";
 import { connectMongoDB } from "./database";
 import routes from "./routes"; // adjust path as needed
 import swaggerUi from "swagger-ui-express";
-import swaggerDocument from "./swagger-output.json";
+import { swaggerDocument } from "./swagger";
 
 dotenv.config();
 
